@@ -1,0 +1,100 @@
+#Basic Printing
+
+print("Hello World")
+
+#Variables and Types 
+# -Numbers
+
+integer = 8
+print(integer)
+decimal = 7.89
+print(decimal)
+myfloat = float(89)
+print(myfloat)
+
+# -Strings : Single or double quotes work
+
+word = "eva_and_yuvan"
+print(word)
+word2 = 'ravi_and_priya'
+print(word2)
+word3 = "Apostrophes shouldn't be in single quotes"
+print(word3)
+
+# -Simple operators on numbers and strings
+
+five = 5
+six = 6
+eleven = five + six
+print(eleven)
+
+hi = "hi"
+bye = "bye"
+hibye = "hi" + " and " + "bye"
+print(hibye)
+
+nothing = "zero"
+something = "fifty billion"
+everything = "infinite"
+print (nothing, something, everything)
+#DON'T MIX OPERATORS BETWEEN STRINGS AND NUMBERS
+
+#Lists
+
+alist = [5, 9 , 10, 4, 3]
+alist.append(2)
+alist.append(8)
+alist.append(6)
+alist.append(7)
+alist.append(1)
+print (alist [3]) #prints the fourth number
+print alist
+
+#Basic Operators
+
+somerandomnumber =( 3 + 5 + 7 - 3) * 4 / 48 + 12
+print(somerandomnumber)
+remainder_of_a_number = 5 % 4
+print(remainder_of_a_number)
+a_number_to_a_power = 5 ** 6 
+print (a_number_to_a_power)
+
+# - Operators with strings
+
+yuvan = "yuvan"
+eva = " and eva"
+siblings = yuvan + eva
+priyanka = "priyanka" * 5
+ravi = "ravi" * 5
+parents = priyanka + ravi
+print(siblings)
+print(parents)
+
+# -Operators with lists
+
+some_numbers =  [5, 7, 8, 6, 9]
+other_numbers = [ 3, 4, 1, 10, 2]
+quite_a_lot_of_numbers = some_numbers + other_numbers
+print(quite_a_lot_of_numbers)
+anarray = [2, 5, 5, 6, 7]
+print (anarray * 3)
+
+#String Formatting
+# -Basic Argument Specifiers:
+# - %s - String
+# - %d - Integers
+# - %f - Floating point numbers
+# - %. <number of digits>f - Floating point numbers with a fixed amount of digits to the right of the dot
+#%x/%X - Integers in hex representation (lowercase/uppercase)
+
+groceries = ("Eva", "apples", "grapes", "mangoes", "icecream", "salad", 64.78)
+template = "Hey %s! You still need to buy %s, %s, %s, %s, and %s to finish grocery shopping. This will cost $%f."
+print(template % groceries) 
+
+#Basic String Operations
+#How many characters are there? (Program, WIP)
+word = "mangoicecream"
+print (len(word))
+aword = "dictionary"
+a = aword.index("a")
+print ("The letter 'a' is character number " + a + " in the word 'dictionary')
