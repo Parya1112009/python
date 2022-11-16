@@ -1,7 +1,17 @@
-list = ["priya","guddu","yuvan","eva","ravi"]
-print ("########list is here#####")
-print list
-list2 = list.append("mummy")
-list3 = list2.append("papa")
-print type(list2)
-print type(list3)
+list = ["priyanla","arya","yuvan","mo","papa","3","5","2","8","1"]
+list.sort()
+print(f"************sorted list is*************** {list}\n")
+list.sort(reverse = True)
+print(f"***************reverse sorted list is *************{list}\n")
+list.pop(3)
+print (f"*************** after pop action the list is *************{list}\n")
+list.remove("arya")
+print(f"***************after remove one vale the final list is *************{list}\n")
+list.insert(1, "guddu")
+print(f"***************after inserting guddu at loaction 1  the final list is *************{list}\n")
+list.pop()
+del list[1]
+print(f"***************after deleting element at loaction 1  the final list is *************{list}\n")
+print (list)
+list.clear()
+print(f"***************after performing clear function ...  the final list is *************{list}\n")

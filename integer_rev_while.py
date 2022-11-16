@@ -6,10 +6,10 @@ def int_rev(t):
     tt = int(t)
     while tt>0:
         rem = tt%10
-        rev= rem+rev*10
         tt = tt/10
         tt = int(tt)
-    return rev  
+        rev= rev * 10 + rem
+    return rev    
 num = input("enter the number")
 #pdb.set_trace()
 print (int_rev(num))

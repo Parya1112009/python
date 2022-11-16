@@ -1,0 +1,7 @@
+print("welcome to the useless store")
+print("*" * 30)
+item = input("what item do you want to buy")
+price = input(f"enter the price of the {item} you want to buy")
+quantity = input(f"how many {item} you ar buying")
+print (f"{quantity} {item}added in to the cart")
+print (f"you are charged total ${int(quantity) * int(price)} for your shopping today thankyou!!")

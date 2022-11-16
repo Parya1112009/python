@@ -1,5 +1,6 @@
-g = lambda a,b:a+b
-k=g(10,20)
-print(k)
-h = lambda w:w*2
-print(h(18))
+g = lambda X:X**2 
+list = g(10)
+print (list)
+g1 = lambda a,b:a+b
+list2 = g1(10,20)
+print (list2)
