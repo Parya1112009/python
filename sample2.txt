@@ -1,0 +1,4 @@
+name	ravi    eva     yuvan 
+sname	arya	arya	arya 
+age	40	12	2 
+hobby	work	tennis	cartoon 

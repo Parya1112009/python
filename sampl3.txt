@@ -1,0 +1,25 @@
+https://www.programiz.com/python-programming/online-compiler/
+
+
+   Interface          Status         MTU       IPv6 Address                       Addr State    Addr Source
+------------------ ------------ ----------- ---------------------------------- ---------------- -----------
+   Et6/3/1.100        up            9000       0013T-fe80::febd:67ff:fe11:b131/64.3.3       up            link local
+                                               2001:3:5:100::3/64                 up            config
+   Et6/3/1.101        up            9000       0013T-fe80::febd:67ff:fe11:b132/64.3.3       up            link local
+                                               2001:3:5:101::3/64                 up            config
+   Et6/3/1.102        up            9000       0013T-fe80::febd:67ff:fe11:b133/64.3.3       up            link local
+                                               2001:3:5:102::3/64                 up            config
+   Et6/3/1.103        up            9000       0013T-fe80::febd:67ff:fe11:b134/64.3.3       up            link local
+                                               2001:3:5:103::3/64                 up            config
+   Et6/3/1.104        up            9000       0013T-fe80::febd:67ff:fe11:b135/64.3.3       up            link local
+                                               2001:3:5:104::3/64                 up            config
+   Et6/3/1.105        up            9000       0013T-fe80::febd:67ff:fe11:b136/64.3.3       up            link local
+                                               2001:3:5:105::3/64                 up            config
+   Et6/3/1.106        up            9000       0013T-fe80::febd:67ff:fe11:b137/64.3.3       up            link local
+                                               2001:3:5:106::3/64                 up            config
+   Et6/3/1.107        up            9000       0013T-fe80::febd:67ff:fe11:b138/64.3.3       up            link local
+                                               2001:3:5:107::3/64                 up            config
+   Et6/3/1.108        up            9000       0013T-fe80::febd:67ff:fe11:b139/64.3.3       up            link local
+                                               2001:3:5:108::3/64                 up            config
+   Et6/3/1.109        up            9000       0013T-fe80::febd:67ff:fe11:b13a/64.3.3       up            link local
+                                               2001:3:5:109::3/64                 up            config
